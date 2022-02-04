@@ -63,3 +63,15 @@
 * Optional gateway
 * Can actualize data up to 8 times per day
 * The creator (on Desktop), and user (on Service) must have got, each one, a license
+
+**Power BI PREMIUM architecture**
+
+* Includes 100 TB of storage
+* Can be shared with internal users without requiring them to have Power BI PRO
+* Greater scalability and performance than shared capacity in Power BI Service
+* Can actualize data up to 48 times per day
+* The creator (on Desktop), and user (on Service) must have got, each one, a license
+
+**Notice**: None of this can be started with a personal email account, but only with a business or with an educational email account
+
+![Power BI architecture](https://i.imgur.com/x4S1XfN.png)
