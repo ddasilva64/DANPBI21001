@@ -47,3 +47,19 @@
 
 * **Power Query ETL**: Extraction, transformation, and loading of data
 * **Power Pivot (DAX) Modeling**: Answer all business questions
+
+### Power BI architecture
+
+**Power BI Free architecture**
+
+* Includes 1 GB of storage
+* Isn't possible to collaborate with other users simultaneously (reports, dashboards, and dataset), but it's possible to publish on websites (without security)
+* Report sharing is only possible in public mode (without security)
+
+**Power BI PRO architecture**
+
+* Includes 10 GB of storage
+* Can be shared with internal users as long as they also have a PRO license
+* Optional gateway
+* Can actualize data up to 8 times per day
+* The creator (on Desktop), and user (on Service) must have got, each one, a license
