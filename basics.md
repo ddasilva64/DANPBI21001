@@ -125,3 +125,13 @@ Using DirectQuery **limits the capabilities of Power BI Desktop**. **For instanc
 **LiveConnection can be used with SQL Server Analysis Services (Tabular models and Multidimensional Cubes), Azure Analysis Services (Tabular Models), and Power BI Datasets hosted in the Power BI Service**. As these sources are analytical engines, **the overall performance will be much higher compared to DirectQuery**. Furthermore, all these sources can offer a semantic layer that acts as a single version of the truth, offering the business a golden layer of high integrity, well-governed data, therefore it's commonly used in enterprise deployments of Power BI, but only with named data sources
 
 Using a LiveConnection does have some restrictions from an authoring perspective. However, as all the work has been done in Analysis Services or an existing Power BI dataset, we're simply taking advantage of an existing enterprise-level model, therefore it makes sense that restrictions exist on data transformation and data modeling capabilities. Also, **some limitations exist on the DAX measures that can be written, as only Report Level Measures are available** in it. This means the **measures are stored in the Power BI report and not written back to the Analysis Services model**. All reporting capabilities are available for use
+
+**A LiveConnection establishes a connection to a semantic layer such as Analysis Services or a Power BI dataset**. In an enterprise scenario, it's important to have a semantic layer placed between your data source systems and Power BI, as it simplifies the data in the Data Warehouse by making it more usable for the business. Also, it aligns complex data with familiar business terms and removes the need to do any data preparation, therefore offering a complete & consolidated view across the organization
+
+![Live Connectivity get data](https://i.imgur.com/pRJdHD1.png)
+
+![Live Connectivity icons](https://i.imgur.com/PHfyNOv.png)
+
+*   With the _**Composite connectivity models**_, we can **combine data from multiple DirectQuery data sources and mix data from an Import data source**. For instance, we can establish a DirectQuery connection to the sales fact table and multiple dimension tables from a SQL Data Warehouse and ingest data using an Import from an Excel spreadsheet that contains budget values. In the Power BI Desktop application, you'll notice the storage mode is set to Mixed in the bottom right, as the below shows
+
+    ![Composite icons](https://i.imgur.com/JXpfw1e.png)
