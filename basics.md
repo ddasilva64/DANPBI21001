@@ -75,3 +75,16 @@
 **Notice**: None of this can be started with a personal email account, but only with a business or with an educational email account
 
 ![Power BI architecture](https://i.imgur.com/x4S1XfN.png)
+
+### Connection types
+
+**Connection types**
+
+Power BI allows us to connect to a wide variety of data sources, from Excel files, SQL Server databases, websites, and so on
+
+**Connection types**
+
+* **Live Connection or Dynamic**: Read from SSAS or from a Power BI Service dataset, in other words, the data is stored outside Power BI (like Direct Query)
+* **Direct Query**: The data isn't copied since each interaction requests a query to the database
+* **Import**: The data is copied locally within the Power BI model (this is the most common type)
+* **Composite Models**: Combines Import and Direct Query technologies. It also allows us to use multiple datasets
