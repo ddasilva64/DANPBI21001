@@ -105,3 +105,9 @@ Power BI allows us to connect to a wide variety of data sources, from Excel file
 |             data source             | ![Data source Live Connectivity](https://i.imgur.com/6p3iPRs.png)                         | ![Data source Direct Query](https://i.imgur.com/SuWtLZ5.png)                         | ![Data source Import](https://i.imgur.com/FNIrr9R.png)                            | ![Data source Composite](https://i.imgur.com/nJalAvm.png)                      |
 | component stored within data source | ![Component stored within data source Live Connectivity](https://i.imgur.com/uOq6szv.png) | ![Component stored within data source Direct Query](https://i.imgur.com/oMSfzis.png) | ![Component stored within data source Composite](https://i.imgur.com/oMSfzis.png) |                                                                                |
 |   component stored within Power BI  | ![Component stored within Power BI Live Connectivity](https://i.imgur.com/BJWgiCM.png)    | ![Component stored within Power BI Direct Query](https://i.imgur.com/nxKlSPc.png)    | ![Component stored within Power BI import](https://i.imgur.com/RxA0ZLe.png)       | ![Component stored within Power BI Composite](https://i.imgur.com/RxA0ZLe.png) |
+
+**Notices**:
+
+* With _**Import connectivity**_, the PBIX file and the dataset are hosted in memory, it's **the fastest of all connectivity types**, but the Power BI dataset must be scheduled to refresh, and we should always keep our memory usage in mind. With **PRO licensing**, the Power BI **dataset cannot exceed 1GB**, however, with **Power BI PREMIUM** this can reach levels of **400GB**
+
+![Import icons](https://i.imgur.com/ojeJtvh.png)
