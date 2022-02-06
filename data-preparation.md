@@ -83,6 +83,16 @@ It's a data connection technology that enables us to discover, connect, combine,
 * It allows us to take two tables and cross them through one or more fields in common
 * Usually used to complement the information in a table
 * It is the closest equivalent to the **JOIN** function of the SQL standard
+* Steps:
+  * Tables are loaded normally
+  * In Transform data (Power Query)
+  * We choose the table (of the two), which we want to combine with the other
+  * Menu Combine/Combine queries to create a new one
+  * We choose the combination field(s)
+  * We choose the type of combination
+  * We choose the fields of the second table that we want to obtain
+
+![Combination types](https://i.imgur.com/3nRBAL6.png)
 
 **Combine binaries**
 
