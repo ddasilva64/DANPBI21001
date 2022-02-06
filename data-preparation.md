@@ -19,3 +19,15 @@ It's a data connection technology that enables us to discover, connect, combine,
 * **Extract**: From virtually any data source
 * **Transform**: From merging, combining, cleaning, or enriching the data
 * **Upload**: The data for further analysis in Power BI
+
+**Points to consider**
+
+* The purpose of Power Query is to obtain data from a variety of sources and prepare it for further analysis
+* The purpose of this tool isn't to analyze the data
+* Magic: Collection of steps performed to reach a result, it also allows going back or forward without modifying the data source. Similar to the process that a macro performs in Excel
+
+![Power Query](https://i.imgur.com/zIjUUnw.jpg)
+
+### Transformations
+
+### Combinations
