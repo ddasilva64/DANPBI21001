@@ -28,6 +28,19 @@ It's a data connection technology that enables us to discover, connect, combine,
 
 ### Transformations
 
+**Transform**: **Shape the data**&#x20;
+
+**Common transformations**:
+
+* Rename columns or tables
+* Change the data type (convert text to numbers, for example)
+* Remove rows
+* Set the first row as header
+* Add columns
+* Split columns
+* Replace values
+* Filter data
+
 ### Combinations
 
 **Append**
