@@ -70,10 +70,10 @@ It's a data connection technology that enables us to discover, connect, combine,
 
 **Append**
 
-* Allows joining two or more tables
-* It's recommended that both have the same structure, if this isn't the case, the system adds the fields of all others with null values to the final set
-* It's similar to a standard SQL **UNION** operation
-* The results can be a new query or added to an existing step
+* Allows us to join two or more tables
+* It is recommended that both have the same structure, if not, the system adds the non-matching fields with null values to the final set
+* It is similar to a standard SQL **UNION** operation
+* Results can be a new query or added to an existing step
 
 **To combine**
 
