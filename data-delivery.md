@@ -14,13 +14,13 @@ The work area defines the set of users who have access to specific data, reports
 * Separate areas of the organization
 * Creation of applications and template applications
 
-### Crear un tablero en Power BI
+### Create a dashboard in Power BI
 
-### Implementar un gateway con el Servicio Power BI
+### Deploy a gateway with Power BI Service
 
-Es un componente que facilita el acceso a los datos de la red (controlador de acceso), que permite otorgar a los usuarios su conexión siempre y cuando cumplan con ciertos criterios
+It's a component that facilitates network data access (access controller), which allows users to be granted their connection as long as they meet certain criteria
 
-**Tipos de gateways**
+**Gateway Types**
 
-* **Modo personal**: permite que un solo usuario se conecte a las fuentes sin que se puedan compartir
-* **Modo múltiple**: permite que múltiples usuarios se conecten a múltiples fuentes de datos locales
+* **Personal mode**: allows a single user to connect to sources without them being able to be shared
+* **Multiple Mode**: Allows multiple users to connect to multiple local data sources
