@@ -42,3 +42,9 @@ It's a data connection technology that enables us to discover, connect, combine,
 * The functionality of combining queries. It allows us to take two tables and cross them using a common column
 * It's usually used to complement the information in a table
 * It's the closest equivalent to the **JOIN** function of the SQL standard
+
+**Combine binaries**
+
+* This functionality allows us to extract the tables from the files through an automated process
+* It's usually used through the folder connector
+* It's especially useful when the information source is too fragmented for the append operation
