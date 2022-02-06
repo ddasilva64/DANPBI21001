@@ -75,11 +75,11 @@ It's a data connection technology that enables us to discover, connect, combine,
 * It is similar to a standard SQL **UNION** operation
 * Results can be a new query or added to an existing step
 
-**To combine**
+**Combine**
 
-* The functionality of combining queries. It allows us to take two tables and cross them using a common column
-* It's usually used to complement the information in a table
-* It's the closest equivalent to the **JOIN** function of the SQL standard
+* It allows us to take two tables and cross them through one or more fields in common
+* Usually used to complement the information in a table
+* It is the closest equivalent to the **JOIN** function of the SQL standard
 
 **Combine binaries**
 
