@@ -43,13 +43,13 @@ It's a data connection technology that enables us to discover, connect, combine,
 
 ### Combinations
 
-**Merge**: Connect to **two or more data sources**, **shape** them as needed, **and then consolidate** them into one useful query
+**Combining**: Connecting to **two or more data sources**, **shaping** them as needed, **and then consolidating** them into a useful query
 
 **Common combinations**:
 
 * Append queries
 * Combine queries
-* Merge binaries
+* Combine binaries
 
 **Append**
 
