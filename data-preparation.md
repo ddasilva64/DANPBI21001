@@ -99,3 +99,12 @@ It's a data connection technology that enables us to discover, connect, combine,
 * This functionality allows us to extract the tables from the files through an automated process
 * It's usually used through the folder connector
 * It's especially useful when the information source is too fragmented for the append operation
+* Steps:
+  * They provide us with an Excel file of sales on a weekly or monthly basis (for example)
+  * The fields within the files must have the same structure and also have the same name
+  * We will choose a field to combine the files in the operation
+  * Go to: Get data / More / Folder and connect
+  * Combine button
+  * Combine and Load option
+  * In the Combine files screen, we choose the combination parameter (one of the tables)
+  * Extract and Append
