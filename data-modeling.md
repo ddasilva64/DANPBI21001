@@ -42,3 +42,14 @@ It's an expression language where it uses analytical formulas and operational fu
 **What can we create?**
 
 * **Calculated Columns**: This allows methods to connect tables with multiple key columns and create new columns in the data model
+* **Calculated Tables**: creates a table derived from another table
+* **Measurement**: Supports time intelligence and creates dynamic calculations, which is the most used in Power BI
+
+**Language Conventions (General Format)**
+
+* 'table name'\[column name]\
+  Example: 'table products'\[Price]
+
+The table name can be omitted when used in calculated columns but it isn't recommended to do so
+
+### Use CALCULATE
