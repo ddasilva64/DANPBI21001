@@ -53,3 +53,13 @@ It's an expression language where it uses analytical formulas and operational fu
 The table name can be omitted when used in calculated columns but it isn't recommended to do so
 
 ### Use CALCULATE
+
+### Time intelligence
+
+It refers to the techniques, tools, and methodologies that allow us to analyze our measurements thoroughly through the concept of "time", that is, it is present in all business intelligence solutions as a starting point to explore the information:
+
+* From analyzing the evolution of our measurements in time, a new dimension (tables) Dates and calendar is used continuously without missing a single day between the dates, this works in our model
+* Monitor growth or decrement in detail
+* Make projections
+
+### Iterators X
