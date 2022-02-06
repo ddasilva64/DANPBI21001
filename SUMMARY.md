@@ -8,3 +8,4 @@
 * [Data analytics](data-analytics.md)
 * [Data delivery](data-delivery.md)
 * [Recommended readings or tools](recommended-readings-or-tools.md)
+* [Interesting books](interesting-books.md)
