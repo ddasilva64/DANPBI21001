@@ -45,6 +45,12 @@ It's a data connection technology that enables us to discover, connect, combine,
 
 **Merge**: Connect to **two or more data sources**, **shape** them as needed, **and then consolidate** them into one useful query
 
+**Common combinations**:
+
+* Append queries
+* Combine queries
+* Merge binaries
+
 **Append**
 
 * Allows joining two or more tables
