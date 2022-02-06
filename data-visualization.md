@@ -16,3 +16,15 @@ Choosing the correct visualization is one of the most important parts of our pro
 * Isn't always good to show a whole figure
 * Show only related information
 * A bad choice of a visual can cause the information to not be transmitted correctly
+
+### Create a report with Power BI
+
+**What is a report?**
+
+It's the collection of pages segmented by a particular theme and offers a summarized and interactive view with the ability to filter according to the user's needs
+
+**Data Storytelling with Power BI**
+
+* **Bookmarks**: They save the configuration of the current view of the report
+* **Buttons**: Allows to activate an action of our report
+* **Advanced tooltips**: Allows to show additional detail to our visualizations
