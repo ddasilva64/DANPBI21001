@@ -13,3 +13,14 @@ The work area defines the set of users who have access to specific data, reports
 * Assign specific roles
 * Separate areas of the organization
 * Creation of applications and template applications
+
+### Crear un tablero en Power BI
+
+### Implementar un gateway con el Servicio Power BI
+
+Es un componente que facilita el acceso a los datos de la red (controlador de acceso), que permite otorgar a los usuarios su conexión siempre y cuando cumplan con ciertos criterios
+
+**Tipos de gateways**
+
+* **Modo personal**: permite que un solo usuario se conecte a las fuentes sin que se puedan compartir
+* **Modo múltiple**: permite que múltiples usuarios se conecten a múltiples fuentes de datos locales
