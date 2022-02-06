@@ -1,7 +1,5 @@
 # Data preparation
 
-
-
 ### What's ETL?
 
 * **Extract**: From virtually any data source, from flat to complex files, databases, or cloud services
@@ -31,3 +29,16 @@ It's a data connection technology that enables us to discover, connect, combine,
 ### Transformations
 
 ### Combinations
+
+**Append**
+
+* Allows joining two or more tables
+* It's recommended that both have the same structure, if this isn't the case, the system adds the fields of all others with null values to the final set
+* It's similar to a standard SQL **UNION** operation
+* The results can be a new query or added to an existing step
+
+**To combine**
+
+* The functionality of combining queries. It allows us to take two tables and cross them using a common column
+* It's usually used to complement the information in a table
+* It's the closest equivalent to the **JOIN** function of the SQL standard
