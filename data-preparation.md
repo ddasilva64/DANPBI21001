@@ -43,6 +43,8 @@ It's a data connection technology that enables us to discover, connect, combine,
 
 ### Combinations
 
+**Merge**: Connect to **two or more data sources**, **shape** them as needed, **and then consolidate** them into one useful query
+
 **Append**
 
 * Allows joining two or more tables
