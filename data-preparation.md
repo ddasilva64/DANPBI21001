@@ -26,6 +26,11 @@ It's a data connection technology that enables us to discover, connect, combine,
 
 ![Power Query](https://i.imgur.com/zIjUUnw.jpg)
 
+### Type of data
+
+* Unlike other programs like Excel, where data types are very flexible, in Power BI we need to define them well before we can use them
+* As in relational databases, **each column must have its type well-defined to avoid errors**
+
 ### Transformations
 
 **Transform**: **Shape the data**&#x20;
