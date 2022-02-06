@@ -7,3 +7,4 @@
 * [Data visualization](data-visualization.md)
 * [Data analytics](data-analytics.md)
 * [Data delivery](data-delivery.md)
+* [Recommended readings or tools](recommended-readings-or-tools.md)
