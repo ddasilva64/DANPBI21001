@@ -74,6 +74,9 @@ It's a data connection technology that enables us to discover, connect, combine,
 * It is recommended that both have the same structure, if not, the system adds the non-matching fields with null values to the final set
 * It is similar to a standard SQL **UNION** operation
 * Results can be a new query or added to an existing step
+* Steps:
+  * In Transform data (Power Query)
+  * Menu Merge/Append queries
 
 **Combine**
 
