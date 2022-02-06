@@ -21,8 +21,8 @@ It's a data connection technology that enables us to discover, connect, combine,
 **Points to consider**
 
 * The purpose of Power Query is to obtain data from a variety of sources and prepare it for further analysis
-* The purpose of this tool isn't to analyze the data
-* Magic: Collection of steps performed to reach a result, it also allows going back or forward without modifying the data source. Similar to the process that a macro performs in Excel
+* The purpose of this tool is not to analyze the data&#x20;
+* Magic: It's the collection of steps that are carried out to reach a result, it also allows you to go back or forward these, without modifying the data source. It is similar to the process that a macro performs in Excel
 
 ![Power Query](https://i.imgur.com/zIjUUnw.jpg)
 
