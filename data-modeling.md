@@ -134,7 +134,7 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 * Sum of Amount 1 := SUMX(Table1; \[Amount])
 * We can see that the two functions return the same result. What differentiates both functions is the way they perform the calculation: The SUMX function is an iterator, it will go through each row evaluating an expression while the SUM() function will directly add the column values. For this case the SUM() function is recommended
 
-
+![Simulation 1 results](https://i.imgur.com/W3gMtjR.png)
 
 2\. Calculate the sum of the Amount of the previous model only for the white wine category
 
