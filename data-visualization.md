@@ -32,5 +32,3 @@ It's the collection of pages segmented by a particular theme and offers a summar
 ![Course report sample](https://i.imgur.com/ISqkA4X.png)
 
 ![Course report sample with page 2 as a pop-up](https://i.imgur.com/zK1hTUM.png)
-
-The course samples are available in GitHub
