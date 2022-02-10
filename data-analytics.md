@@ -19,7 +19,7 @@
 
 With the play button (lower-left corner), reproduce the evolution of each month of the selected year
 
-![Imgur](https://i.imgur.com/nNyFaZH.png)
+![Ejemplo 2 de analítica de datos](https://i.imgur.com/nNyFaZH.png)
 
 
 
