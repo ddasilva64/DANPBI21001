@@ -28,3 +28,9 @@ It's the collection of pages segmented by a particular theme and offers a summar
 * **Bookmarks**: They save the configuration of the current view of the report
 * **Buttons**: Allows to activate an action of our report
 * **Advanced tooltips**: Allows to show additional detail to our visualizations
+
+![Course report sample](https://i.imgur.com/ISqkA4X.png)
+
+![Course report sample with page 2 as a pop-up](https://i.imgur.com/zK1hTUM.png)
+
+The course samples are available in GitHub
