@@ -45,6 +45,13 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 
 ![Fact and dimension](https://i.imgur.com/gTFNcvu.png)
 
+**Data model engine**
+
+* His name is **Vertipaq**
+* Handles all data analysis operations (DAX)
+* Uses in-memory technology that provides high storage and performance in the data query
+* Allows short development cycles
+
 ### Fixing modeling issues
 
 1. **Data Model Design**: The Star Schema Model is the most used in Power Bi because it is made up of a dimension table (Search) and a Fact table (transactional) where the integration of both excels the one-to-many relationship and thus avoids data redundancy
