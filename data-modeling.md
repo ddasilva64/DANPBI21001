@@ -10,7 +10,7 @@
 
 ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 
-Data Modeling in Power BI focuses on performing complex analysis across multiple tables connected by a common field
+**Data modeling**: Complex analyses between several tables connected by a common field
 
 ### Relations and filters
 
