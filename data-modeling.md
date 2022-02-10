@@ -96,10 +96,15 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 
 ### Time intelligence
 
-It refers to the techniques, tools, and methodologies that allow us to analyze our measurements thoroughly through the concept of "time", that is, it is present in all business intelligence solutions as a starting point to explore the information:
+* By time Intelligence, we refer to the techniques, tools, and methodologies that allow us to analyze our measurements carefully over time
+* The concept of "time" is present in all business intelligence solutions. It serves as a starting point to exploit the information
 
-* From analyzing the evolution of our measurements in time, a new dimension (tables) Dates and calendar is used continuously without missing a single day between the dates, this works in our model
-* Monitor growth or decrement in detail
-* Make projections
+**Table of dates**
+
+* In order to use this type of analysis within Power BI, we will first need to create a new dimension
+* These tables are known as date tables or calendar tables, and they function as a new dimension for our model.
+* A table of dates is identified by having all the dates existing in our model (or at least those necessary for the analysis) continuously. That is, without missing a single day between the dates
+* Allows you to monitor growth or decline in detail
+* Allows projections
 
 ### Iterators X
