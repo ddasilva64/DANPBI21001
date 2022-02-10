@@ -36,13 +36,17 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 **Design of data models**:
 
 * There are different types (star, snowflake, etc.)
-* In **Power BI** we focus on the **star schema** model, which is the most efficient
+* In **Power BI,** we focus on the **star schema** model, which is the most efficient
+
+**Star model components**:
+
+* **Fact tables**: Also known as **transactional tables** or (fact in English). They answer the question **of what do I want to obtain or look for?**
+* **Dimension tables**: Also known as **lookup tables**. They respond to the level of **classification that interests us**, which can be **time or type of data**
 
 **For this, it is necessary to know two key aspects**
 
-**Facts**: Answer the question "What do I want to obtain or seek"
-
-**Dimensions**: Responds to the level or classification that I am interested in, which can be time or type of data
+* **Facts**: Answer the question "What do I want to obtain or seek"
+* **Dimensions**: Responds to the level or classification that I am interested in, which can be time or type of data
 
 ![Fact and dimension](https://i.imgur.com/gTFNcvu.png)
 
