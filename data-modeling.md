@@ -160,6 +160,8 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 * Syntax: SUM(\[Sale Price]\*\[Quantity])
 * The SUM() function returns an error because it only accepts one column as a parameter
 
+![Simulation 3 - SUM -](https://i.imgur.com/4ZuPmuL.png)
+
 **SUMX**:
 
 * On the other hand, the SUMX() function does allow us to do this because it supports an expression in addition to a column:
