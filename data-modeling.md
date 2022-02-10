@@ -70,11 +70,13 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 * Created **to manipulate a tabular data model**
 * It is based on Excel; hence their similarity in terms of formulation structure. We can find this language in Power BI, SAS Tabular, and Excel in the Power Query plugin
 
-**Why DAX?**
+**Why DAX?**:
 
-* Navigation Relations
-* Calculation of Dimensions
-* Management of Time Dimensions (Time Intelligence)
+* Navigation Relations.
+* Designed to reach a greater number of users
+* Dynamic calculation of dimensions, for example, **Time Intelligence**
+* The shorter learning curve for data analysts. Leverage existing knowledge of working with Excel formulas
+  * For example: = IF (Sales > 0, "WON", "LOST")
 
 **What can we create?**
 
