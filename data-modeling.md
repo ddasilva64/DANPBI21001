@@ -25,6 +25,14 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 * **1:n (from 1 to several)**: Occurs when a primary key is connected with the foreign key of another table
 * **m:n (many-to-many)**: Occurs when both tables are related by their foreign keys (none of the columns have unique values). Avoid these kinds of relationships
 
+**Conflicts to resolve**:
+
+1. **Relationships m:n**: By means of the concatenation of key fields or by means of associative tables
+2. **Inactive Relationships**:&#x20;
+   1. Delete them because they are not necessary&#x20;
+   2. They can be unresolved relationships m:n&#x20;
+   3. The Model Documenter tool is very interesting
+
 The data model can be done in two ways; one is the star model and the other is called a snowflake or something similar to a waterfall
 
 **For this, it is necessary to know two key aspects**
