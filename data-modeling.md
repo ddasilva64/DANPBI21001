@@ -33,7 +33,10 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
    2. They can be unresolved relationships m:n&#x20;
    3. The Model Documenter tool is very interesting
 
-The data model can be done in two ways; one is the star model and the other is called a snowflake or something similar to a waterfall
+**Design of data models**:
+
+* There are different types (star, snowflake, etc.)
+* In **Power BI** we focus on the **star schema** model, which is the most efficient
 
 **For this, it is necessary to know two key aspects**
 
