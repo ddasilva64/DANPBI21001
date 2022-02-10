@@ -116,3 +116,18 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 * Some of these functions are: SUMX, AVERAGEX, MAXX, MINX, STDEVX.S, PERCENTILEX.EXC and CONCATENATEX
 
 **SUM and SUMX simulations in Excel**:
+
+1. We need to calculate the sum of the amount of all the products. What function should we use? Can we use one or the other interchangeably?
+
+**SUM**:
+
+* Add all the numbers in a column.
+* The parameter is the column that contains the numbers to add. The function accepts numeric or date values ​​and returns a decimal value as a result. Rows can contain blank values. Column values ​​cannot be filtered.
+* Sum of Amount := SUM(\[Amount])
+
+**SUMX**:
+
+* Returns the sum of an expression evaluated for each row of a table
+* The parameter is the table containing the values ​​for which the expression will be evaluated. Can be the name of a table or an expression that returns a table. The parameter is a column that contains the numbers you want to sum, or an expression that evaluates to a column. Only the numbers in the column are counted. White space, logical values, and text are ignored.
+* Sum of Amount 1 := SUMX(Table1; \[Amount])
+* We can see that the two functions return the same result. What differentiates both functions is the way they perform the calculation: The SUMX function is an iterator, it will go through each row evaluating an expression while the SUM() function will directly add the column values. For this case the SUM() function is recommended.
