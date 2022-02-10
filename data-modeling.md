@@ -84,12 +84,10 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 * **Calculated Tables**: Creates a table derived from another table. For example, this system allows us to create tables without duplicates of a field from another table, to break relationships m:n
 * **Measures**: Supports time intelligence and creates dynamic calculations, which is the most used in Power BI
 
-**Language Conventions (General Format)**
+**Language conventions (general format)**:
 
-* 'table name'\[column name]\
-  Example: 'table products'\[Price]
-
-The table name can be omitted when used in calculated columns but it isn't recommended to do so
+* 'table name' \[column name]. Example: 'Products table'\[Price]
+* The table name can be omitted when used in calculated columns, but it is not recommended to do so.
 
 ### Use CALCULATE
 
