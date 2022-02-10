@@ -167,3 +167,5 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 * On the other hand, the SUMX() function does allow us to do this because it supports an expression in addition to a column:
 * Syntax: SUMX(Table2;\[Sale Price]\*\[Quantity])
 * In this case the SUMX() function is recommended
+
+![Simulation 3 - SUMX -](https://i.imgur.com/uMKKIZh.png)
