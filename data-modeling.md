@@ -144,6 +144,8 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 * On the other hand, the SUMX () function does allow us to: Import fruits := SUMX(Filter(Table1; \[Category]=”white wine”); \[Amount])
 * In this case, either of the two could be used, if applied in an aforementioned manner
 
+![Simulation 2 results](https://i.imgur.com/YD5FtQt.png)
+
 3\. Calculate total sales. In this model, unlike the previous one, we do not have a column with the amount of each row, but we can calculate it using the Sale Price and Quantity columns in the expression:\[Sale Price]\*\[Quantity]
 
 **SUM**:
