@@ -117,7 +117,7 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 
 **SUM and SUMX simulations in Excel**:
 
-![Products table (wines)](https://i.imgur.com/YuoTGhu.png)
+![Product table](https://i.imgur.com/xWCFLYp.png)
 
 1. We need to calculate the sum of the amount of all the products. What function should we use? Can we use one or the other interchangeably?
 
