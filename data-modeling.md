@@ -153,6 +153,8 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 
 3\. Calculate total sales. In this model, unlike the previous one, we do not have a column with the amount of each row, but we can calculate it using the Sale Price and Quantity columns in the expression:\[Sale Price]\*\[Quantity]
 
+![Sales by warehouse table](https://i.imgur.com/iwII5ml.png)
+
 **SUM**:
 
 * Syntax: SUM(\[Sale Price]\*\[Quantity])
