@@ -64,7 +64,11 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 
 ### DAX language
 
-It's an expression language where it uses analytical formulas and operational functions that allow the calculation of one or more values, created to manipulate a tabular data model and is based on Excel; hence their similarity in terms of formulation structure. We can find this language in Power BI, SAS Tabular, and Excel in the Power Query plugin
+**DAX (Data Analysis Expression)**:
+
+* Power BI Analytical Expression Language: **Uses analytical formulas and operational functions** that allow the calculation of one or more values
+* Created **to manipulate a tabular data model**
+* It is based on Excel; hence their similarity in terms of formulation structure. We can find this language in Power BI, SAS Tabular, and Excel in the Power Query plugin
 
 **Why DAX?**
 
