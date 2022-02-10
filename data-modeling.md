@@ -134,17 +134,22 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 * Sum of Amount 1 := SUMX(Table1; \[Amount])
 * We can see that the two functions return the same result. What differentiates both functions is the way they perform the calculation: The SUMX function is an iterator, it will go through each row evaluating an expression while the SUM() function will directly add the column values. For this case the SUM() function is recommended
 
-![Simulation 1 results](https://i.imgur.com/W3gMtjR.png)
+![Simulation 1 - SUM & SUMX -](https://i.imgur.com/W3gMtjR.png)
 
-2\. Calculate the sum of the Amount of the previous model only for the white wine category
+2\. Calculate the sum of the Amount of the previous model only for the white fruit category
 
 **SUM**:
 
-* The SUM() function does not allow us to filter the rows of the table on which we want to perform the calculation, and we must combine it with the CALCULATE() function. White wine amount := CALCULATE(SUM(\[Amount]) ; Filter(Table1;\[Category]=”white wine”)) **SUMX**:
-* On the other hand, the SUMX () function does allow us to: Import fruits := SUMX(Filter(Table1; \[Category]=”white wine”); \[Amount])
+* The SUM() function does not allow us to filter the rows of the table on which we want to perform the calculation, and we must combine it with the CALCULATE() function. Fruit amount := CALCULATE(SUM(\[Amount]) ; Filter(Table1;\[Category]=”fruit”))&#x20;
+
+![Simulation 2 - SUM -](https://i.imgur.com/YD5FtQt.png)
+
+**SUMX**:
+
+* On the other hand, the SUMX () function does allow us to: Import fruits := SUMX(Filter(Table1; \[Category]=”fruit”); \[Amount])
 * In this case, either of the two could be used, if applied in an aforementioned manner
 
-![Simulation 2 results](https://i.imgur.com/YD5FtQt.png)
+![Simulation 2 - SUMX -](https://i.imgur.com/tui1lRs.png)
 
 3\. Calculate total sales. In this model, unlike the previous one, we do not have a column with the amount of each row, but we can calculate it using the Sale Price and Quantity columns in the expression:\[Sale Price]\*\[Quantity]
 
