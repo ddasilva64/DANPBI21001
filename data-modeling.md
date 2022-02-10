@@ -108,3 +108,11 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 * Allows projections
 
 ### Iterators X
+
+**Iterative functions**
+
+* These types of functions are special within DAX and allow you to create operations at the row level and calculate a result from them
+* Iterative functions are also known as X functions, because of their ending within their name in DAX
+* Some of these functions are: SUMX, AVERAGEX, MAXX, MINX, STDEVX.S, PERCENTILEX.EXC and CONCATENATEX
+
+**SUM and SUMX simulations in Excel**:
