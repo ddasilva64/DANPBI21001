@@ -130,4 +130,27 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 * Returns the sum of an expression evaluated for each row of a table
 * The parameter is the table containing the values ​​for which the expression will be evaluated. Can be the name of a table or an expression that returns a table. The parameter is a column that contains the numbers you want to sum, or an expression that evaluates to a column. Only the numbers in the column are counted. White space, logical values, and text are ignored.
 * Sum of Amount 1 := SUMX(Table1; \[Amount])
-* We can see that the two functions return the same result. What differentiates both functions is the way they perform the calculation: The SUMX function is an iterator, it will go through each row evaluating an expression while the SUM() function will directly add the column values. For this case the SUM() function is recommended.
+* We can see that the two functions return the same result. What differentiates both functions is the way they perform the calculation: The SUMX function is an iterator, it will go through each row evaluating an expression while the SUM() function will directly add the column values. For this case the SUM() function is recommended
+
+
+
+2\. Calculate the sum of the Amount of the previous model only for the white wine category
+
+**SUM**:
+
+* The SUM() function does not allow us to filter the rows of the table on which we want to perform the calculation, and we must combine it with the CALCULATE() function. White wine amount := CALCULATE(SUM(\[Amount]) ; Filter(Table1;\[Category]=”white wine”)) **SUMX**:
+* On the other hand, the SUMX () function does allow us to: Import fruits := SUMX(Filter(Table1; \[Category]=”white wine”); \[Amount])
+* In this case, either of the two could be used, if applied in an aforementioned manner
+
+3\. Calculate total sales. In this model, unlike the previous one, we do not have a column with the amount of each row, but we can calculate it using the Sale Price and Quantity columns in the expression:\[Sale Price]\*\[Quantity]
+
+**SUM**:
+
+* Syntax: SUM(\[Sale Price]\*\[Quantity])
+* The SUM() function returns an error because it only accepts one column as a parameter
+
+**SUMX**:
+
+* On the other hand, the SUMX() function does allow us to do this because it supports an expression in addition to a column:
+* Syntax: SUMX(Table2;\[Sale Price]\*\[Quantity])
+* In this case the SUMX() function is recommended
