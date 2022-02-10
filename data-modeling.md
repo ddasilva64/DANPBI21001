@@ -91,6 +91,9 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 
 ### Use CALCULATE
 
+* 'table name' \[column name]. Example: 'Products table'\[Price]
+* The table name can be omitted when used in calculated columns, but it is not recommended to do so
+
 ### Time intelligence
 
 It refers to the techniques, tools, and methodologies that allow us to analyze our measurements thoroughly through the concept of "time", that is, it is present in all business intelligence solutions as a starting point to explore the information:
