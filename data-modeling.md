@@ -78,11 +78,11 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 * The shorter learning curve for data analysts. Leverage existing knowledge of working with Excel formulas
   * For example: = IF (Sales > 0, "WON", "LOST")
 
-**What can we create?**
+**What can we create with DAX?**
 
-* **Calculated Columns**: This allows methods to connect tables with multiple key columns and create new columns in the data model
-* **Calculated Tables**: creates a table derived from another table
-* **Measurement**: Supports time intelligence and creates dynamic calculations, which is the most used in Power BI
+* **Calculated Columns**: This allows methods to create new columns in the data model. It also allows tables with multiple key columns to be connected in a new column.
+* **Calculated Tables**: Creates a table derived from another table. For example, this system allows us to create tables without duplicates of a field from another table, to break relationships m:n
+* **Measures**: Supports time intelligence and creates dynamic calculations, which is the most used in Power BI
 
 **Language Conventions (General Format)**
 
