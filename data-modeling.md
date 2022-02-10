@@ -57,6 +57,11 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 1. **Data Model Design**: The Star Schema Model is the most used in Power Bi because it is made up of a dimension table (Search) and a Fact table (transactional) where the integration of both excels the one-to-many relationship and thus avoids data redundancy
 2. **Data Model Engine**: VERTIPAQ is in charge of data analysis operations (DAX) and uses technology (in-memory) that provides high performance to store and query data
 
+**Need for data modeling**:
+
+* If a single dashboard is loaded, it will have poor performance for large data volumes and with data redundancy
+* Proper modeling avoids these problems
+
 ### DAX language
 
 It's an expression language where it uses analytical formulas and operational functions that allow the calculation of one or more values, created to manipulate a tabular data model and is based on Excel; hence their similarity in terms of formulation structure. We can find this language in Power BI, SAS Tabular, and Excel in the Power Query plugin
