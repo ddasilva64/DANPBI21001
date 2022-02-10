@@ -19,6 +19,12 @@ ETL is handled with Power Query, while Data Modeling is done with Power Pivot
 * **Primary keys**: Used to define the primary key of the table. Columns that have this profile cannot contain null values and cannot have duplicate values. That is, it must contain unique records
 * **Foreign keys**: A foreign key is a column or set of columns, which contains a value that refers to a row of another table
 
+**Relationship types**:
+
+* **1:1 (from 1 to 1)**: Both tables are connected by their primary keys. It acts as an extension of these
+* **1:n (from 1 to several)**: Occurs when a primary key is connected with the foreign key of another table
+* **m:n (many-to-many)**: Occurs when both tables are related by their foreign keys (none of the columns have unique values). Avoid these kinds of relationships.
+
 The data model can be done in two ways; one is the star model and the other is called a snowflake or something similar to a waterfall
 
 **For this, it is necessary to know two key aspects**
