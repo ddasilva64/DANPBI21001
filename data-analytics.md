@@ -6,8 +6,6 @@
 
 **Details**:
 
-
-
 1. Dimensions
    1. X-axis: Total sales
    2. Y axis: Sales quantity
@@ -54,6 +52,8 @@ The URLs are available in the Recommended reading or tools section
 ![Measurement table](https://i.imgur.com/gG51DZF.png)
 
 ![We create a measure](https://i.imgur.com/jwkDF6t.png)
+
+![Imgur](https://i.imgur.com/MhW7Rsx.png)
 
 To check the measurement we create a table and see that it works OK
 
