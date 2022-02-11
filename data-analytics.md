@@ -59,4 +59,8 @@ To check the measurement we create a table and see that it works OK
 
 ![Do not summarize, to see age details](https://i.imgur.com/JyOolet.png)
 
-![Imgur](https://i.imgur.com/MfFb7H4.png)
+![The age in detail with the calculated measurement](https://i.imgur.com/MfFb7H4.png)
+
+Now we will take these two variables to a graph made with R
+
+![Imgur](https://i.imgur.com/fjemhYv.png)
