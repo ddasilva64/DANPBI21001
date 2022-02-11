@@ -45,3 +45,5 @@ Power BI offers the possibility of integrating BI tools, with languages such as 
 
 The URLs are available in the Recommended reading or tools section
 
+![We get the data of the example from a CSV file](https://i.imgur.com/3SvvvNo.png)
+
