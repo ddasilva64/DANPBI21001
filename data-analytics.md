@@ -59,3 +59,4 @@ To check the measurement we create a table and see that it works OK
 
 ![Measurement check table](https://i.imgur.com/JyOolet.png)
 
+![Imgur](https://i.imgur.com/MfFb7H4.png)
