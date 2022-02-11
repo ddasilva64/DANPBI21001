@@ -49,5 +49,7 @@ The URLs are available in the Recommended reading or tools section
 
 ![We load the desired file](https://i.imgur.com/uKPzu5t.png)
 
-![We're going to specify data and create a table (store) of measures](https://i.imgur.com/6aO2Vbh.png)
+![We're going to specify data and create a table (warehouse) of measures](https://i.imgur.com/6aO2Vbh.png)
+
+![Measurement table](https://i.imgur.com/gG51DZF.png)
 
