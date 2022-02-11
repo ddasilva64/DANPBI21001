@@ -48,3 +48,6 @@ The URLs are available in the Recommended reading or tools section
 ![We get the data of the example from a CSV file](https://i.imgur.com/3SvvvNo.png)
 
 ![We load the desired file](https://i.imgur.com/uKPzu5t.png)
+
+![We're going to specify data and create a table (store) of measures](https://i.imgur.com/6aO2Vbh.png)
+
