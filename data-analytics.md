@@ -65,4 +65,6 @@ Now we will take these two variables to a graph made with R
 
 ![We copy the R script that we've in a TXT](https://i.imgur.com/fjemhYv.png)
 
-![Imgur](https://i.imgur.com/mcut0Rh.png)
+![Habilitamos el script que vamos a crear](https://i.imgur.com/mcut0Rh.png)
+
+![Imgur](https://i.imgur.com/Qdl4bUc.png)
