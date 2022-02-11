@@ -55,3 +55,7 @@ The URLs are available in the Recommended reading or tools section
 
 ![We create a measure](https://i.imgur.com/jwkDF6t.png)
 
+To check the measurement we create a table and see that it works OK
+
+![Measurement check table](https://i.imgur.com/JyOolet.png)
+
