@@ -63,4 +63,6 @@ To check the measurement we create a table and see that it works OK
 
 Now we will take these two variables to a graph made with R
 
-![Imgur](https://i.imgur.com/fjemhYv.png)
+![We copy the R script that we've in a TXT](https://i.imgur.com/fjemhYv.png)
+
+![Imgur](https://i.imgur.com/mcut0Rh.png)
