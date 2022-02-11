@@ -67,6 +67,6 @@ Now we will take these two variables to a graph made with R
 
 ![We enable the script that we are going to create](https://i.imgur.com/TF4PGrt.png)
 
-![Habilitamos el script que vamos a crear](https://i.imgur.com/mcut0Rh.png)
+![Now we take the variables age and sum of lines (not summarized)](https://i.imgur.com/mcut0Rh.png)
 
-![Imgur](https://i.imgur.com/Qdl4bUc.png)
+![We paste script and press play (upper right corner)](https://i.imgur.com/Qdl4bUc.png)
