@@ -53,3 +53,5 @@ The URLs are available in the Recommended reading or tools section
 
 ![Measurement table](https://i.imgur.com/gG51DZF.png)
 
+![We create a measure](https://i.imgur.com/jwkDF6t.png)
+
