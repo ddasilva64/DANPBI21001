@@ -21,8 +21,6 @@ With the play button (lower-left corner), reproduce the evolution of each month 
 
 ![Ejemplo 2 de analítica de datos](https://i.imgur.com/nNyFaZH.png)
 
-
-
 **Chart 1 details**
 
 1. Dimensions
@@ -42,3 +40,8 @@ With the play button (lower-left corner), reproduce the evolution of each month 
    5. Transparency: 80%
 
 ### Data analytics with Python/R
+
+Power BI offers the possibility of integrating BI tools, with languages such as Python or R To make an example script in R, download and install R and R Studio
+
+The URLs are available in the Recommended reading or tools section
+
