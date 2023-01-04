@@ -38,7 +38,6 @@ English is the international language. That's all folks!.
 
 ![Daniel da Silva Jarque (author)](https://i.imgur.com/2i0LPvN.png)
 
-[Personal blog (English, Spanish, Catalan) - WordPress -](https://gwst.eu)\
 [Professional portfolio (English) - GitHub -](https://github.com/ddasilva64)\
 Notes, book commentaries, and so on (English) - GitBook -\
 [Professional profile (English) - LinkedIn -](https://linkedin.com/in/daniel-da-silva-jarque-863705206)
